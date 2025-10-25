@@ -11,6 +11,20 @@ import roomRouter from "./routes/roomRoutes.js"
 import bookingRouter from "./routes/bookingRoutes.js"
 import { stripeWebhooks } from "./controllers/stripeWebhooks.js"
 
+// import mongoose from "mongoose"
+
+// mongoose.set('strictQuery', true);
+
+// console.log("MONGO_URI:", process.env.MONGODB_URI);
+
+
+// mongoose.connect(process.env.MONGODB_URI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// })
+// .then(() => console.log('MongoDB connected'))
+// .catch(err => console.log('MongoDB connection error:', err));
+
 connectDB();
 connectCloudinary();
 
