@@ -33,7 +33,7 @@ const ExclusiveOffers = () => {
                         <button className="flex items-center gap-2 font-medium
                         cursor-pointer mt-4 mb-5">
                             View Offers
-                            <imd className="invert group-hover:translate-x-1
+                            <img className="invert group-hover:translate-x-1
                             transition-all" src={assets.arrowIcon} alt="arrow-icon"/>
                         </button>
                     </div>
